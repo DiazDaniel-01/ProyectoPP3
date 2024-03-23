@@ -1,3 +1,5 @@
+
+
 html {
   font-size: 14px;
 }
@@ -15,4 +17,14 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+.portada {
+    background-image: url(../img/Portada_Soluciones_Synapse.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 120px;
+    position: relative;
+    margin-bottom: 20px;
 }
