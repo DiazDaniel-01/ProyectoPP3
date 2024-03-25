@@ -1,4 +1,8 @@
-
+:root {
+    --primary: #dc3545;
+    --light: #F1F8FF;
+    --dark: #0F172B;
+}
 
 html {
   font-size: 14px;
@@ -24,7 +28,43 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    height: 120px;
+    height: 95px;
     position: relative;
     margin-bottom: 20px;
+}
+
+/** Navbars **/
+.texto_indice:hover {
+    background: var(--primary);
+    border-radius: 5px;
+}
+.texto_indice:hover * {
+    color: var(--light) !important;
+}
+.nav-item:hover {
+    background: var(--primary);
+    border-radius: 5px;
+}
+.nav-item:hover * {
+    color: var(--light) !important;
+}
+/*** Hero Header ***/
+.hero-header {
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*** Service ***/
+.service-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+
+.service-item:hover {
+    background: var(--primary);
+}
+
+.service-item:hover * {
+    color: var(--light) !important;
 }
